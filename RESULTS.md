@@ -1,4 +1,4 @@
-All tests done on a 2015 MacBook Pro with a SSD.
+All tests done on a 2015 Retina MacBook Pro with a SSD.
 
 Ruby 2.2.2
 ===
@@ -27,5 +27,11 @@ Calculating -------------------------------------
 JRuby 9000 (b96813f)
 ===
 ```
-
+[jruby-head] ~/Sites/pstore_test ruby test.rb
+Calculating -------------------------------------
+         PStore save     3.808k i/100ms
+        PStore fetch     3.944k i/100ms
+-------------------------------------------------
+         PStore save     43.008k (±10.2%) i/s -    213.248k
+        PStore fetch     42.980k (±10.6%) i/s -    212.976k
 ```
